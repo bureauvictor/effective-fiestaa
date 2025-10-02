@@ -7,5 +7,5 @@ def GreetTheUser():
   print(f'I am a {username} using github. Just want to greet you!!')
 
 
-def __main__:
-  GreetTheUser()
+if __name__ == "__main__":
+    GreetTheUser()
