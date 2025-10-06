@@ -15,5 +15,5 @@ jobs:
         with:
           python-version: 3.9
       - name: Run py file
-        run: python Hola-Mundo.py
+        run: python holamundo.py
         
