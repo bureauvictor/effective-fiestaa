@@ -13,5 +13,5 @@ jobs:
       - name: Definir variable de entorno
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
       - name: Correr script
-        run: python holamundo.py
+        run: python Hola-Mundo.py
         
