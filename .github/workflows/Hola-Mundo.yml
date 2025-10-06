@@ -1,6 +1,9 @@
 name: runs python file that greets the user
 on: [push]
 
+env: 
+  USERNAME: ${{ github.actor }}
+
 jobs:
   hola-mundopy:
     runs-on: ubuntu:latest
